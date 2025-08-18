@@ -63,7 +63,7 @@ Open the link that appears in your terminal (usually `http://localhost:8501`).
   - Lightweight enough for GitHub hosting  
 
 - **Full dataset**:  
-  The full dataset (`shamsi_adata.h5ad`) is deposited in the public Google Drive folder: https://drive.google.com/drive/folders/1AFqWCtvPBqEVbL5j8LOsVBZ0ubX6lzgz.  
+  The full dataset (`shamsi_adata.h5ad`) will be deposited publicly soon..  
   To use it, download the file and replace this line in `streamlit_app.py`:
   ```python
   adata = sc.read("shamsi_adata_demo_mini.h5ad")
@@ -92,7 +92,9 @@ See [`requirements.txt`](requirements.txt) for full list. Main libraries include
 
 ## 📖 Citation
 The demo dataset is derived from:  
-[**Comprehensive analysis of intercellular communication in the thermogenic adipose niche. Shamsi F, Zheng R, Ho LL, Chen K, Tseng YH. Commun Biol. 2023 Jul 21;6(1):761. doi: 10.1038/s42003-023-05140-2. PMID: 37479789; PMCID: PMC10361964.**](https://doi.org/10.1038/s42003-023-05140-2)
+[**Comprehensive analysis of intercellular communication in the thermogenic adipose niche. 
+Shamsi F, Zheng R, Ho LL, Chen K, Tseng YH. 
+Commun Biol. 2023 Jul 21;6(1):761. doi: 10.1038/s42003-023-05140-2. PMID: 37479789; PMCID: PMC10361964.**](https://doi.org/10.1038/s42003-023-05140-2)
 
 ---
 
