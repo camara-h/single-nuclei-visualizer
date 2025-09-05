@@ -6,9 +6,9 @@ This app is built around a demo dataset of mouse brown adipose tissue (BAT), but
 
 ---
 
-## ✨ Features
+## Features
 - **Try it online**: No setup needed — test the app with the included minimal dataset here:  
-  👉 [shamsi-2021-snrnaseq-visualizer.streamlit.app](https://shamsi-2021-snrnaseq-visualizer.streamlit.app/)  
+  [shamsi-2021-snrnaseq-visualizer.streamlit.app](https://shamsi-2021-snrnaseq-visualizer.streamlit.app/)  
 - **Subset by cell type**: Choose which cell types to visualize via a sidebar multiselect.  
 - **Summary metrics**: Displays mean reads/cell and mean genes/cell.  
 - **Interactive visualizations**:  
@@ -19,7 +19,7 @@ This app is built around a demo dataset of mouse brown adipose tissue (BAT), but
 
 ---
 
-## 📂 Repository structure
+## Repository structure
 ```
 .
 ├── streamlit_app.py        # Main Streamlit application
@@ -30,7 +30,7 @@ This app is built around a demo dataset of mouse brown adipose tissue (BAT), but
 
 ---
 
-## 🚀 Quickstart
+## Quickstart
 
 ### 1. Clone this repository
 ```bash
@@ -54,7 +54,7 @@ Open the link that appears in your terminal (usually `http://localhost:8501`).
 
 ---
 
-## 📊 Demo and full datasets
+## Demo and full datasets
 
 - **Minimal dataset**:  
   A small `.h5ad` file (`shamsi_adata_demo_mini.h5ad`) is included for testing.  
@@ -81,7 +81,7 @@ Open the link that appears in your terminal (usually `http://localhost:8501`).
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 See [`requirements.txt`](requirements.txt) for full list. Main libraries include:
 - Streamlit ≥ 1.34  
 - Scanpy ≥ 1.10  
@@ -90,7 +90,7 @@ See [`requirements.txt`](requirements.txt) for full list. Main libraries include
 
 ---
 
-## 📖 Citation
+## Citation
 The demo dataset is derived from:  
 [**Comprehensive analysis of intercellular communication in the thermogenic adipose niche. 
 Shamsi F, Zheng R, Ho LL, Chen K, Tseng YH. 
@@ -98,6 +98,6 @@ Commun Biol. 2023 Jul 21;6(1):761. doi: 10.1038/s42003-023-05140-2. PMID: 374797
 
 ---
 
-## 🙌 Acknowledgments
+## Acknowledgments
 - Built with [Streamlit](https://streamlit.io/) and [Scanpy](https://scanpy.readthedocs.io/).  
 - Demo dataset courtesy of the authors above.  
